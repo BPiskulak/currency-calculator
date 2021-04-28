@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  background-image: url("../img/25547.jpg");
+  background-position: center;
+  background-size:contain;
+  
+}

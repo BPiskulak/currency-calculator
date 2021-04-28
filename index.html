@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1200px`, initial-scale=1.0">
+    <title>Kalkulator walutowy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,400&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">
+                    Kalkulator walutowy
+                </legend>
+                <div class="form__labelText">
+                    <img class="form__moneyIcon" src="https://i.ibb.co/mbbbKQ9/poland-flag.png" alt="poland-flag">
+                    Podaj kwotę w PLN
+                </div>
+                <div class="form__labelText form__labelText--modifire">
+                    <label>
+                        <input class="form__field js-valuePln" type="number" min="0.01" step="any" required
+                            placeholder="PLN">
+                    </label>
+                </div>
+
+                <div style="text-align: center;">
+                    <button class="form__button">Przelicz </button>
+                </div>
+
+                <div class="form__result form__result--modifier">
+                    <div class="form__resultItem">
+                        <img class="form__moneyIcon" src="https://i.ibb.co/PZPFBc9/european-union-flag.png"
+                            alt="european-union-flag">
+                        <span class="form__resultText">EUR</span> <strong class="form__strong js-euro"> 0 €</strong>
+                    </div>
+
+
+                    <div class="form__resultItem"><img class="form__moneyIcon"
+                            src="https://i.ibb.co/0YgLBZ0/united-states-flag.png" alt="united-states-flag"><span
+                            class="form__resultText">
+                            USD </span>
+                        <strong class="form__strong js-dolar"> 0 $</strong>
+                    </div>
+                </div>
+
+                <div class="form__result">
+                    <div class="form__resultItem">
+                        <img class="form__moneyIcon" src="https://i.ibb.co/mhS4hCc/united-kingdom-flag.png"
+                            alt="united-kingdom-flag"><span class="form__resultText">
+                            GBP</span>
+                        <strong class="form__strong js-funt"> 0 £</strong>
+                    </div>
+
+                    <div class="form__resultItem">
+                        <img class="form__moneyIcon" src="https://i.ibb.co/1v700M9/switzerland-flag.png"
+                            alt="switzerland-flag"><span class="form__resultText">
+                            CHF</span>
+                        <strong class="form__strong js-frank"> <span class="inner__frank"> 0 F</span></strong>
+                    </div>
+                </div>
+
+                <div style="text-align: center;">
+                    <button class="form__button js-button" type="reset" value="wartość">Resetuj</button>
+                </div>
+            </fieldset>
+
+            <footer class="footer">
+                &#xa9; Copyright Bogusław Piskulak 2021
+            </footer>
+
+        </form>
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
