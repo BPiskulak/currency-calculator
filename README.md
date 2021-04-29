@@ -16,7 +16,7 @@ It is a simple currency converter prepared as part of learning programming.
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](.https://raw.githubusercontent.com/BPiskulak/currency-calculator/main/img/currency-calculator.png)
 
 ## Technologies
 * HTML
