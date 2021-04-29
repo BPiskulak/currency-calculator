@@ -24,7 +24,8 @@ It is a simple currency converter prepared as part of learning programming.
 * JavaScript
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+To start the application, follow the instructions below:
+1. Przejdź na 
 
 https://bpiskulak.github.io/currency-calculator/
 
@@ -32,21 +33,8 @@ https://bpiskulak.github.io/currency-calculator/
 Show examples of usage:
 `put-your-code-here`
 
-## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
-
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
-
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
-
-## Inspiration
-Add here credits. Project inspired by..., based on...
+The project is in progress and will be further expanded.
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [Bogusław Piskulak](boguslaw.piskulak@gmail.com/) - feel free to contact me!
