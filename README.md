@@ -26,8 +26,8 @@ The calculator converts currencies from PLN to Francs, Euro and Dollars.
 To start the application, follow the instructions below:
 1. Go to the website: https://bpiskulak.github.io/currency-calculator/
 2. Enter the value in Polish zlotys in the "PLN" field
-3. Click on "Convert"
-4. To clear and recalculate the redo, click on "Reset"
+3. Click on "Przelicz"
+4. To clear and recalculate the redo, click on "Resetuj"
 
 ## Status
 The project is in progress and will be further expanded.
