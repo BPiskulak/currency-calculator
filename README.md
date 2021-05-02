@@ -4,19 +4,23 @@ It is a simple currency converter prepared as part of learning programming.
 ![Currency calculator](https://raw.githubusercontent.com/BPiskulak/currency-calculator/main/img/currency-calculator.png) 
 
 ## Table of contents
+* [Demo](#demo)
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Status](#status)
 * [Contact](#contact)
 
+## Demo
+https://bpiskulak.github.io/currency-calculator/
+
 ## General info
 The calculator converts currencies from PLN to Francs, Euro and Dollars.
 
 ## Technologies
 * HTML
-* CSS
-* JavaScript
+* CSS-BEM
+* Javascript ES6+
 
 ## Setup
 To start the application, follow the instructions below:
