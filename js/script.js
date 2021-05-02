@@ -1,6 +1,5 @@
 
 {
-  const form = document.querySelector(".js-form");
   const valuePln = document.querySelector(".js-valuePln");
   const valueEuro = document.querySelector(".js-euro");
   const valueDolar = document.querySelector(".js-dolar");
