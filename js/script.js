@@ -1,35 +1,35 @@
 
 {
-  const valuePln = document.querySelector(".js-valuePln");
-  const valueEuro = document.querySelector(".js-euro");
-  const valueDolar = document.querySelector(".js-dolar");
-  const valueFunt = document.querySelector(".js-funt");
-  const valueFrank = document.querySelector(".js-frank");
+  const valuePlnElement = document.querySelector(".js-valuePln");
+  const valueEuroElement = document.querySelector(".js-euro");
+  const valueDolarElement = document.querySelector(".js-dolar");
+  const valueFuntElement = document.querySelector(".js-funt");
+  const valueFrankElement = document.querySelector(".js-frank");
 
-  const calculateResult = (event) => {
+  const convertCurrencies = (event) => {
     event.preventDefault();
-    const pln = valuePln.value;
+    const pln = valuePlnElement.value;
     const euro = pln / 4.54;
     const dolar = pln / 3.78;
     const funt = pln / 5.26;
     const frank = pln / 4.13;
 
-    valueEuro.innerText = euro.toFixed(2) + " €";
-    valueDolar.innerText = dolar.toFixed(2) + " $";
-    valueFunt.innerText = funt.toFixed(2) + " £";
-    valueFrank.innerText = frank.toFixed(2) + "₣";
+    valueEuroElement.innerText = euro.toFixed(2) + " €";
+    valueDolarElement.innerText = dolar.toFixed(2) + " $";
+    valueFuntElement.innerText = funt.toFixed(2) + " £";
+    valueFrankElement.innerText = frank.toFixed(2) + "₣";
   };
 
   const resetResult = () => {
-    valueEuro.innerText = "0 €";
-    valueDolar.innerText = "0 $";
-    valueFunt.innerText = "0 £";
-    valueFrank.innerText = "0 F";
+    valueEuroElement.innerText = "0 €";
+    valueDolarElement.innerText = "0 $";
+    valueFuntElement.innerText = "0 £";
+    valueFrankElement.innerText = "0 F";
   };
 
   const init = () => {
     const form = document.querySelector(".js-form");
-    form.addEventListener("submit", calculateResult);
+    form.addEventListener("submit", convertCurrencies);
     form.addEventListener("reset", resetResult)
   };
 
